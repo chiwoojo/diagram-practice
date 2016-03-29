@@ -12,3 +12,12 @@ Your algorithm should run in linear runtime complexity. Could you implement it u
  *
  *
  */
+
+// psuedo code
+
+// function findMissing
+//   loop through each element until the 2nd to last value
+//     if the current element + 1 is not equal to the next element
+//       return current element + 1;
+//
+// return null other wise
